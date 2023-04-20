@@ -20,8 +20,8 @@ def mean(lst):
 def sendMail(mail_content,recv_address):
     # param mail_content 邮件内容
     # param recv_address 接收邮箱
-    sender_address = 'chenyang2512cy@foxmail.com'
-    sender_pass = 'odqjmupvjnephbde'
+    sender_address = '@foxmail.com'
+    sender_pass = ''
     # 怎么申请应用密码可以往下看
     message = MIMEMultipart() #message结构体初始化
     message['From'] = sender_address #你自己的邮箱
@@ -106,9 +106,9 @@ def text():
     sendMail(content,"chenyang2512cy@foxmail.com")
 
 while True:
-    with Imbox('smtp.qq.com','chenyang2512cy@foxmail.com','odqjmupvjnephbde') as imbox:
+    with Imbox('smtp.qq.com','@foxmail.com','') as imbox:
         
-        #all_messages = imbox.messages(send_to='chenyang2512cy@foxmail.com')
+        #all_messages = imbox.messages(send_to='@foxmail.com')
             all_messages=imbox.messages(unread=True)
             for uid,message in all_messages:
                 print('uid',uid)
