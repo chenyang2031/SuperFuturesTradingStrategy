@@ -31,3 +31,69 @@ https://zh.y8.com/games/green_lake
 
 未来的创新方向在仓位管理，供需关系，基本面数据
 
+
+
+
+
+Futures Programmed Trading System Based on Double Moving Average Strategy, Super Quantitative Trading System
+
+#Futures Programmed Trading System Based on Double Moving Average Strategy, Super Quantitative Trading System
+
+Futures Trading Strategy - Sunway the Taihu Lake Light
+
+30+1 MA clues under 1 hour
+
+1 hour and 30 hour theory
+
+
+
+Earnings exceeding 81, execute earnings stop
+
+Execution of stop loss for losses exceeding 10
+
+(Cloud condition settings+81 and -10 permanent)
+
+
+
+When the profit on the 05 contract exceeds 2120, stepping on the brake must stop the 05 contract trading for that year
+
+
+
+Played at 10:56 on trading day
+
+
+
+##No need to # # run away profits and enter again on dips
+
+
+
+Play this game more often https://zh.y8.com/games/gunblood
+
+
+
+Play this game more often https://zh.y8.com/games/chop_hand
+
+
+
+https://zh.y8.com/games/gunblood_remastered
+
+
+
+https://zh.y8.com/games/green_lake
+
+
+
+
+
+In statistics, it is called "regression average". Once randomness is successfully encountered, there will inevitably be a 'regression average'.
+
+After a successful game of exceptional performance by a player, their performance in the next game will return to normal. But most of the time it's actually worse.
+
+
+
+Speak with data, think big data
+
+
+
+
+Future innovation directions include position management, supply and demand relationships, and fundamental data
