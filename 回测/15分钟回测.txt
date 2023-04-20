@@ -1,0 +1,205 @@
+import akshare as ak
+import math
+
+def mean(lst):
+    kkk=sum(lst)/len(lst)
+    kkk=round(kkk,2)
+    return str(kkk)
+
+
+
+futures_zh_minute_sina_df = ak.futures_zh_minute_sina(symbol="FG2305", period="15")
+
+#print(futures_zh_minute_sina_df)
+close=futures_zh_minute_sina_df['close']
+print(len(close))
+
+closeone=[]
+
+openone=[]
+
+closeold=[]
+ 
+openold=[]
+
+
+The01=[]
+The02=[]
+
+
+
+#print(futures_zh_minute_sina_df)
+
+
+
+
+
+
+a=0
+while a<4:
+    closeone=closeone+[float(close.iloc[a])]
+    a=a+1
+#print(closeone,len(closeone))
+The01=The01+[float(mean(closeone))]
+mean01=sum(closeone)
+a=4
+b=0
+while a<len(close):
+    mean01=mean01+float(close.iloc[a])-float(close.iloc[b])
+    The01=The01+[round(mean01/4.0,2)]
+    b=b+1
+    a=a+1
+#print(The01)
+
+
+
+
+
+
+a=0
+while a<120:
+    closeold=closeold+[float(close.iloc[a])]
+    a=a+1
+#print(closeone,len(closeone))
+The02=The02+[float(mean(closeold))]
+mean01=sum(closeold)
+a=120
+b=0
+while a<len(close):
+    mean01=mean01+float(close.iloc[a])-float(close.iloc[b])
+    The02=The02+[round(mean01/120.0,2)]
+    b=b+1
+    a=a+1
+#print(The02)
+
+
+
+
+#print(len(The01),len(The02))
+Rs=len(The02)
+
+RS=[]
+
+a=len(The01)-len(The02)
+bbs=119
+while bbs!=0:
+    
+    
+    #这里特别注意要2和1和0互相变换
+    RS=RS+[0]
+    
+    bbs=bbs-1
+
+
+
+
+
+b=a
+b2=0
+while b2<len(The02):
+    if(The01[b]<The02[b2]):
+        RS=RS+[1]
+        
+    else:
+        RS=RS+[0]
+      
+
+    b=b+1
+    b2=b2+1
+
+
+
+print(len(RS),len(The02))
+
+print(RS)
+
+
+
+
+a=1
+mone=0
+zs=0
+num=9
+KKO=[]
+fuhao=1
+jilu=0
+mowei=0
+while a<len(RS):
+    
+    if(RS[a]==1):
+        fuhao=-1
+    else:
+        fuhao=1
+    
+    
+    if(RS[a]!=RS[a-1]):
+        mowei=zs
+        zs=zs+float(close.iloc[a])*fuhao
+        jilu=float(close.iloc[a])*fuhao
+
+
+    
+    a=a+1
+
+
+
+
+
+
+
+
+
+
+print(mowei,zs)
+
+
+print(futures_zh_minute_sina_df)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
