@@ -93,7 +93,7 @@ def text():
 
     content="收盘均线:("+ str(mean(closeone)) +","+str(mean(closeold))+")  "+ "开盘均线:("+ str(mean(openone)) +","+str(mean(openold))+")  "
 
-    sendMail(xc,"chenyang2512cy@foxmail.com")
+    sendMail(xc,"chenya2cy@fil.com")
     
     
     
@@ -109,8 +109,8 @@ def text():
 def sendMail(mail_content,recv_address):
     # param mail_content 邮件内容
     # param recv_address 接收邮箱
-    sender_address = 'chenyang2512cy@foxmail.com'
-    sender_pass = 'odqjmupvjnephbde'
+    sender_address = 'chenyang2y@foxl.com'
+    sender_pass = 'odqjmhbde'
     # 怎么申请应用密码可以往下看
     message = MIMEMultipart() #message结构体初始化
     message['From'] = sender_address #你自己的邮箱
@@ -183,7 +183,7 @@ while True:
         if(hour==5):
             if(minute>=45):
                     xc=text()
-                    sendMail(xc,"chenyang2512cy@foxmail.com")
+                    sendMail(xc,"chen25cy@fmal.com")
                     
         
         if(hour==6):
@@ -208,7 +208,7 @@ while True:
 
 
 
-#sendMail(main_content,"chenyang2512cy@foxmail.com")
+#sendMail(main_content,"chenyancy@foxil.com")
 
 
 
