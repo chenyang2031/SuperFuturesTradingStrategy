@@ -110,7 +110,7 @@ def sendMail(mail_content,recv_address):
     # param mail_content 邮件内容
     # param recv_address 接收邮箱
     sender_address = 'chenyang2y@foxl.com'
-    sender_pass = 'odqjmhbde'
+    sender_pass = ''
     # 怎么申请应用密码可以往下看
     message = MIMEMultipart() #message结构体初始化
     message['From'] = sender_address #你自己的邮箱
