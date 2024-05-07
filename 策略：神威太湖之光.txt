@@ -5,8 +5,6 @@
 亏损超过10执行止损
 (云条件设置+81 和 -10永久)
 
-在05合约上盈利超过2120时，踩一脚刹车必须停止当年的05合约交易
-
 交易日的时候10:51播放  《青春之火》
 
 ##不需要##把利润跑掉，逢低再次入场
@@ -19,7 +17,11 @@ https://zh.y8.com/games/gunblood_remastered
 
 https://zh.y8.com/games/green_lake
 
+只能够站着下单，不允许坐着下单，时刻保持敬畏之心
 
+每次只要是平仓，都需要用软件回测，对一下最终的结果是否正确
+
+加仓的时候，损一次加一次仓（每次7k）
 
 在统计学上称之为“回归平均”。一旦碰到随机性成功，必定会出现“回归平均”。
 球员打出一场超常发挥的成功比赛之后，后一场球赛的表现都会回归正常。但大多数时候确实要差一些。
@@ -30,3 +32,41 @@ https://zh.y8.com/games/green_lake
 未来的创新方向在仓位管理，供需关系，基本面数据
 
 本开源模块未进行详尽完备的测试，作者不保证您通过本模块获取到数据的完整以及准确性、不保证您的策略逻辑正确触发对应的实盘操作，您通过使用本模块实盘操作产生的损益与作者无关。
+
+
+30+1 ma clues under 1 hour
+1 hour and 30 hours theory
+
+Profit more than 81 execution to stop profit
+Losses exceed 10 execution stop loss
+(Cloud conditions settings +81 and -10 permanent)
+
+During the trading day, play "The Fire of Youth" at 10:51
+
+## No need to run away from the profit, enter the venue again
+
+Play this game https://zh.y8.com/games/gunblood
+
+Play this game https://zh.y8.com/games/chop_hand
+
+https://zh.y8.com/games/gunblood_remasterEd
+
+https://zh.y8.com/games/green_lake
+
+You can only stand on the order, not allow you to sit and place an order, always keep awe
+
+As long as you are liquid every time, you need to use the software to test it.
+
+When adding a position, damage once and add a position once (7K each time)
+
+It is statistically called "return average". Once a random success is encountered, a "return average" will definitely appear.
+After the player played a successful game, the performance of the latter game will return to normal. But most of the time is indeed worse.
+
+Talk with data, big data thinking
+
+
+The future innovation direction is managed in position, supply and demand relationship, fundamental data
+
+This open source module has not performed detailed and complete tests. The author does not guarantee that you obtain the complete data and accuracy of the data through this module, and do not guarantee your strategic logic to correctly trigger the corresponding real operation. Profit and loss have nothing to do with the author.
+
+
