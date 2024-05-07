@@ -1,3 +1,4 @@
+![Python Logo](https://www.python.org/static/community_logos/python-logo-inkscape.svg)
 1小时下的 30+1 MA线索
 1小时与30小时理论
 
@@ -32,6 +33,9 @@ https://zh.y8.com/games/green_lake
 未来的创新方向在仓位管理，供需关系，基本面数据
 
 本开源模块未进行详尽完备的测试，作者不保证您通过本模块获取到数据的完整以及准确性、不保证您的策略逻辑正确触发对应的实盘操作，您通过使用本模块实盘操作产生的损益与作者无关。
+
+
+![Python Logo](https://www.python.org/static/community_logos/python-logo-inkscape.svg)
 
 
 30+1 ma clues under 1 hour
