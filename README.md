@@ -1,5 +1,9 @@
 # 基于双均线策略的超级期货程序化交易系统，超级量化交易系统
 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-1.12%2B-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+![views since 2025/02/21](https://komarev.com/ghpvc/?username=muying&color=5865f2 )
 期货交易策略-神威太湖之光
 
 1小时下的 30+1 MA线索
